@@ -25,6 +25,7 @@ def is_valid(y, x, height, grid, visits):
     return False
 
 
+# BFS algorithm https://en.wikipedia.org/wiki/Breadth-first_search
 def find_min_steps(queue):
     while len(queue) != 0:
         source = queue.pop(0)  # extract with FIFO logic
